@@ -1,0 +1,1 @@
+Design distributed app using MapReduce under Hadoop for char counting in a given text file counting no of occurrences of every word in a given text file in python
