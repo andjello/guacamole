@@ -1,0 +1,1 @@
+Implement Any one membership function by fuzzy & Calculate the Membership function values using triangular shape in Python.
