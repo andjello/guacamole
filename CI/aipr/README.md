@@ -1,0 +1,1 @@
+To apply the artificial immune pattern recognition to perform a task of structure damage Classification.
