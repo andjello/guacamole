@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
+from __future__ import print_function
 import sys
 
 current_word = None
@@ -12,10 +13,10 @@ for line in sys.stdin:
         current_count += count
     else:
         if current_word:
-            print(f"{current_word}\t{current_count}")
+            print("{}\t{}".format(current_word, current_count))
         current_word = word
         current_count = count
 
 # Output the last word
 if current_word:
-    print(f"{current_word}\t{current_count}")
+    print("{}\t{}".format(current_word, current_count))
